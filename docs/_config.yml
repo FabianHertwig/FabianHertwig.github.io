@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fabian Hertwig Blog
-email: fabian.hertwig+githubioblog@gmail.com
+title: Fabian Hertwig's Blog
+email: fabian.hertwig+ghblog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a Data Scientist and write about Machine Learning related topics.
 domain: fabianhertwig.github.io
