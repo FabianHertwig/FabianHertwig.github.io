@@ -29,8 +29,11 @@ twitter_username: FabianHertwig
 github_username:  FabianHertwig
 
 # Build settings
-theme: minima
+# theme: minima
+# Use remote theme to get unreleased updates. This fixes a bug with google analytics: https://github.com/jekyll/minima/issues/561
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Analytics
