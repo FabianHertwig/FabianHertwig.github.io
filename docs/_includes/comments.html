@@ -1,0 +1,20 @@
+{% assign provider = site.comments.provider | default:"giscus" %}
+{% if provider == "giscus" %}
+  {% assign giscus = site.giscus %}
+  {% if giscus.repo %}
+  <hr><br>  
+  <script src="https://giscus.app/client.js"
+            data-repo={{ giscus.repo }}
+            data-repo-id={{ giscus.repo-id }}
+            data-category={{ giscus.category }}
+            data-category-id={{ giscus.category-id }}
+            data-mapping={{ giscus.mapping }}
+            data-reactions-enabled={{ giscus.reaction-enabled }}
+            data-emit-metadata={{ giscus.emit-metadata }}
+            data-theme={{ giscus.theme }}
+            data-lang={{ giscus.lang }}
+            crossorigin={{ giscus.crossorigin }}
+            async>
+    </script>
+  {% endif %}
+{% endif %}

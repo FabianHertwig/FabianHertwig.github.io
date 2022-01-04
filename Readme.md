@@ -26,6 +26,19 @@ Changes:
 - Additional script to the google analytics script to be able to opt out of tracking. The script is called in a link in the data privacy section.
 - Template for the social icons is adapted to make the footer tighter.
 
+## Comment System
+
+For comments [giscus](https://giscus.app) is added. The setup is based on [this blogpost](https://lazyren.github.io/devlog/use-utterances-for-jekyll-comments.html).
+
+For the setup:
+- discussions got enabled in the github repo
+- giscus got installed as a github plugin
+- the giscus `<script>` got generated using their [website](https://giscus.app)
+- the variables from the script got moved in the `_config.yaml` in a `comments` and `giscus` section
+- the `_includes/comments.html` got added with the giscus script using the variables from the `_config.yaml`
+- the `_sass/comments.scss` got added to configure the width of giscus.
+- the default `_layouts/post.html` from the minama repo got added and a include of the `comments.html` was added.
+
 ## Domain Setup
 
 I registered the domains fabianhertwig.com and fabianhertwig.de with google domains. 
