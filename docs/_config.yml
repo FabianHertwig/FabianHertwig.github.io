@@ -1,7 +1,7 @@
 title: Fabian Hertwig's Blog
 author:
   name: Fabian Hertwig
- # email: fabian.hertwig+ghblog@gmail.com
+  email: fabian.hertwig+ghblog@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   I am a Data Scientist and write about Machine Learning related topics.
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -20,7 +20,7 @@ minima:
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    # linkedin: jekyll
+    linkedin: fabian-hertwig
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
