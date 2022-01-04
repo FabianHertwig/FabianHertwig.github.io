@@ -6,4 +6,4 @@ permalink: /about/
 
 I am a Data Scientist with about 7 years industry experience. I will use this blog to organize my thoughts about machine learning, data products, leadership and management.
 
-
+This blog is setup with jekyll and github pages. Checkout the repository: <https://github.com/FabianHertwig/FabianHertwig.github.io>
