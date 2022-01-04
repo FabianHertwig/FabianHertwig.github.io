@@ -51,6 +51,26 @@ header_pages:
 
 google_analytics: "G-N76K892CTB"
 
+
+comments:
+  # 'disqus' or 'utterances' are available
+  provider:            giscus
+
+# You must install giscus github app before use.(https://github.com/apps/giscus)
+# Make sure all variables are set properly. Check below link for detail.
+# https://giscus.vercel.app/
+giscus:
+  repo:                "FabianHertwig/FabianHertwig.github.io"
+  repo-id:             "R_kgDOGQ92mA"
+  category:            "Comments"
+  category-id:         "DIC_kwDOGQ92mM4CAivM"
+  mapping:             "pathname"
+  reaction-enabled:    "1"
+  emit-metadata:       "0"
+  theme:               "light"
+  lang:                "en"
+  crossorigin:         "anonymous"
+
 # Build settings
 theme: minima
 
