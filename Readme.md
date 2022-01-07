@@ -22,9 +22,9 @@ This blog is based on github pages and jekyll, checkout the guide here: https://
 It uses the default [jeckyll minima theme](https://github.com/jekyll/minima) but there are some customizations to the templates in the `_includes` folder. When you add a file there, then the default gets overridden. See the minima repo for the default files.
 
 Changes:
-- Link to the data privacy and imprint site in the footer, this is needed by german law. These sites are markdown files in the `docs` folder. The `_config.yml` is configured to only show the *about* link in the header, see `header_pages`.
-- Additional script to the google analytics script to be able to opt out of tracking. The script is called in a link in the data privacy section.
 - Template for the social icons is adapted to make the footer tighter.
+- Link to the data privacy and imprint site in the footer, this is needed by german law. These sites are markdown files in the `docs` folder. The `_config.yml` is configured to only show the *about* link in the header, see `header_pages`.
+- Cookie consent banner. The banner got generated with [Osano](https://www.osano.com/cookieconsent/download/). The scripts for the banner are in the `_includes/cookie-consent-*.html` files. These are included in the `_includes/head.html` and `_includes/footer.html` to load the scripts before the `</head>` and `</body>` tags. The default google analytics script got separated into functions so that the cookies are only set on consent.
 
 ## Comment System
 
