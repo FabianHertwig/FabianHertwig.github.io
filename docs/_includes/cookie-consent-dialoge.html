@@ -22,7 +22,6 @@
       var didConsent = this.hasConsented();
       if (type == 'opt-in' && didConsent) {
         // enable cookies
-        setGooglyAnalyticsCookie()
         grantGoogleAnalytics()
       }
       if (type == 'opt-out' && !didConsent) {
@@ -35,7 +34,6 @@
       var didConsent = this.hasConsented();
       if (type == 'opt-in' && didConsent) {
         // enable cookies
-        setGooglyAnalyticsCookie()
         grantGoogleAnalytics()
       }
       if (type == 'opt-out' && !didConsent) {
@@ -51,7 +49,6 @@
       }
       if (type == 'opt-out') {
         // enable cookies
-        setGooglyAnalyticsCookie()
         grantGoogleAnalytics()
       }
     }

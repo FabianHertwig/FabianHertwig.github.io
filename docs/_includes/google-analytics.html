@@ -1,31 +1,18 @@
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.consented_google_analytics }}"></script>
 <script>
-    window['ga-disable-{{ site.google_analytics }}'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+    window['ga-disable-{{ site.consented_google_analytics }}'] = true; // Disable analytics by default, gets enabled with the function below
     window.dataLayer = window.dataLayer || [];
     function gtag() { window.dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('consent', 'default', {
-        'ad_storage': 'denied',
-        'analytics_storage': 'denied'
-    });
-
-    function setGooglyAnalyticsCookie() {
-        gtag('config', '{{ site.consented_google_analytics }}', { 'anonymize_ip': true });
-    }
+    gtag('config', '{{ site.consented_google_analytics }}', { 'anonymize_ip': true });
 
     function grantGoogleAnalytics() {
-        gtag('consent', 'update', {
-        'ad_storage': 'granted',
-        'analytics_storage': 'granted'
-    });
+        window['ga-disable-{{ site.consented_google_analytics }}'] = false;
     }
 
     function denyGoogleAnalytics() {
-        gtag('consent', 'update', {
-        'ad_storage': 'denied',
-        'analytics_storage': 'denied'
-    });
+        window['ga-disable-{{ site.consented_google_analytics }}'] = true;
     }
 
 </script>
