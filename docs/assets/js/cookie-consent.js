@@ -12,6 +12,7 @@ window.cookieconsent.initialise({
     "static": true,
     "type": "opt-in",
     "content": {
+      "message": "This website uses cookies so that I can see page visit statistics.",
       "href": "/privacy"
     },
     onInitialise: function (status) {
