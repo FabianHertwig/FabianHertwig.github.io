@@ -115,8 +115,7 @@ after_footer_scripts:
   - /assets/js/cookie-consent.js
 #  - /assets/js/google-analytics.js
 
-url: "https.fabian.hertwig.github.io"
-baseurl: ""
+url: "https://fabianhertwig.com"
 consented_google_analytics: "G-N76K892CTB"
 
 repository: FabianHertwig/FabianHertwig.github.io
