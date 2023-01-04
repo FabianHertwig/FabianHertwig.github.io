@@ -87,8 +87,8 @@ DCG@k = ∑ rel_i * (1 / log_2(i+1)) for i = 1 to k
 
 Where:
 
-`rel_i` is the relevance of the item at rank i
-`k` is the number of items in the top k portion of the ranking
+- `rel_i` is the relevance of the item at rank i
+- `k` is the number of items in the top k portion of the ranking
 
 The formula for IDCG@k is:
 
@@ -275,8 +275,8 @@ For Query 3:
 number of relevant items in top 2 = 0
 total number of relevant items = 0
 Recall@2 = (number of relevant items in top 2) / (total number of relevant items)
-= 0 / 0
-= NaN
+= 0 / 1
+= 0
 ```
 
 If the total number of relevant documents in the corpus is 0, the Recall@k score is not defined. This can happen when there are no relevant documents in the corpus for a given query, or when the relevance threshold is set too high such that no documents in the corpus meet the threshold.
@@ -310,15 +310,15 @@ Rank 9: Non-relevant document
 Rank 10: Relevant document
 ```
 
-And if there are a total of 7 relevant documents in the corpus, the Recall@5 and R_cap@5 scores would be calculated as follows:
+There are a total of 7 relevant documents in the corpus, the Recall@5 and R_cap@5 scores would be calculated as follows:
 
 ```
 Recall@5 = (number of relevant items in top 5) / (total number of relevant items)
-         = 3 / 8
-         = 0.38
+         = 3 / 7 
+         = 0.43
 
 R_cap@5 = (number of relevant items in top 5) / min(k, total number of relevant items)
-        = 3 / min(5,8)
+        = 3 / min(5,7)
         = 3 / 5
         = 0.60
 ```
