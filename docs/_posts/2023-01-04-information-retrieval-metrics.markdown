@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "Metrics for Information Retrieval"
-date:   2023-01-04 15:00:00 +0200
-categories: blog
+title: "Metrics for Information Retrieval"
+date: 2023-01-04 15:00:00 +0200
+categories:
+  - blog
+tags:
+  - Information Retrieval
+  - Evaluation
+  - Metrics
 ---
 
 In the past year I have built a neural search system on top of the awesome [Haystack](https://github.com/deepset-ai/haystack) project. One of the tasks was to understand how well different models or algorithms perform for our corpus. Therefore I needed to understand the metrics that are commonly used in information retrieval tasks. I could not find one source that described them neatly, therefor I created this post. The metrics explained in this post are the ones that the [BEIR](https://github.com/beir-cellar/beir) benchmark currently reports:

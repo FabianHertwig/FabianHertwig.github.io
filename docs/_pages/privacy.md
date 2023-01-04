@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Privacy Policy
+permalink: /privacy/
+title: "Privacy Policy"
 ---
+
 
 **Use of Google Analytics**.
 
