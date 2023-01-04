@@ -29,7 +29,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Europe/Berlin" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -56,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Fabian Hertwig"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am a Machine Learning Engineer working at MaibornWolff GmbH in Munich."
+  name: "Fabian Hertwig"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "I am a Machine Learning Engineer working at MaibornWolff GmbH in Munich."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -110,27 +110,25 @@ tag_archive:
 
 after_footer_scripts:
   - /assets/js/cookie-consent.js
-#  - /assets/js/google-analytics.js
 
 url: "https://fabianhertwig.com"
 consented_google_analytics: "G-N76K892CTB"
 
 repository: FabianHertwig/FabianHertwig.github.io
 comments:
-  # 'disqus' or 'utterances' are available
-  provider:            giscus
+  provider: giscus
 
 # You must install giscus github app before use.(https://github.com/apps/giscus)
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
 giscus:
-  repo:                "FabianHertwig/FabianHertwig.github.io"
-  repo-id:             "R_kgDOGQ92mA"
-  category:            "Comments"
-  category-id:         "DIC_kwDOGQ92mM4CAivM"
-  mapping:             "pathname"
-  reaction-enabled:    "1"
-  emit-metadata:       "0"
-  theme:               "light"
-  lang:                "en"
-  crossorigin:         "anonymous"
+  repo: "FabianHertwig/FabianHertwig.github.io"
+  repo-id: "R_kgDOGQ92mA"
+  category: "Comments"
+  category-id: "DIC_kwDOGQ92mM4CAivM"
+  mapping: "pathname"
+  reaction-enabled: "1"
+  emit-metadata: "0"
+  theme: "light"
+  lang: "en"
+  crossorigin: "anonymous"
