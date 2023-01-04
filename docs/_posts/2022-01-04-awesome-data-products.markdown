@@ -1,18 +1,23 @@
 ---
-layout: post
-title:  "Feedback Loops are the Key Concept to build awesome Data Products"
-date:   2022-01-04 15:00:00 +0200
-categories: blog
+title: "Feedback Loops are the Key Concept to build awesome Data Products"
+date: 2022-01-04 15:00:00 +0200
+categories:
+  - blog
+tags:
+  - Machine Learning
+  - Data Engine
+  - Data Products
 ---
+
 A useful product attracts more users which generate data that can be used to improve the product. That is the concept of the virtuous circle of AI. Tesla uses it to improve the Autopilot, Netflix to show the right movies to each user and even startups to validate their idea or to train robots to sort trash. In this post I will explain the concept and show how these companies implement it.
 
 # The Virtuous Circle of AI
 
-![the virtuous cycle](/resources/virtuous_cycle.png)
+![the virtuous cycle](/assets/images/virtuous_cycle.png)
 
 The first time I heard of the virtuous cycle of AI was in this presentation from Andrew Ng, where he briefly describes it. Short enough so that you understand it, but too short to understand the significance of it. If you like, watch it from 14:40 to 16:40.
 
-<iframe width="100%" height="405" src="https://www.youtube.com/embed/NKpuX_yzdYs?start=870" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video id="NKpuX_yzdYs?start=870" provider="youtube" %}
 
 The circle states that a useful product will attract users. These users generate data and that data can be used to improve the product. That is a positive feedback loop and if you run that for some time, you have such valuable data, that your product evolved to be the best of its kind. It becomes very hard for others to reproduce your product or compete with you. Because if your product is so far ahead then it is hard for them to attract new users so that they create the needed data. To explain that further, let us look at some companies that implement the virtuous circle.
 
@@ -22,7 +27,7 @@ The company that implements the circle top-notch is Tesla. The most famous one i
 
 Tesla builds electric cars, which is a useful product by itself to many people. To make the autonomous driving features useful from the beginning, Tesla integrated the Intel Mobile Eye system into their early cars before building their own self driving car system. That system powered lane keeping and traffic aware cruise control[^tesla_hw_1]. So Tesla has a useful product, which attracts users. Because there are millions of Tesla cars driving around, Tesla can effectively use the fleet to collect data about the Autopilot system. For example, they once observed the problem, that bikes attached to the back of a car get recognized as bikes traveling along the street, but should be recognized as a part of the car. So they issued commands to the fleet to collect images of bikes on cars. The fleet sends these images back to Tesla, they can then label these images correctly and use this dataset to retrain their self driving Neural Networks, e.g. improve their product. Tesla calls this system the Data Engine and presented it for the first time at the Tesla Autonomy Day, see the video below from 2:05:18 to 2:12:50. If you want to also get a good explanation of how Neural Networks work, then start at 1:52:00.
 
-<iframe width="100%" height="405" src="https://www.youtube.com/embed/Ucp0TTmvqOE?start=7518" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video id="Ucp0TTmvqOE?start=7518" provider="youtube" %}
 
 Tesla built the data feedback loop very intentionally into the cars. The Autopilot Hardware has additional computational capacity which allows Tesla to run Neural Networks in shadow mode, where they run in parallel to the networks in control, but are just observing the world or the system that is in  control. Tesla also uses shadow mode to deploy triggers on the fleet, for example to send back video sequences where bikes are attached to the car or when the driver had to intervene[^triggers]. Or they deploy the next version of a Neural Network in shadow mode and send back all the predictions that turned out to be wrong, for example when a model predicted that another car would cut into the line, but it did not.
 
@@ -32,7 +37,7 @@ Streaming services like Spotify, Netflix, YouTube, and TikTok made the virtuous 
 
 TikTok takes being a recommender to the extreme. TikTok is a platform where users can upload short videos and remix them with music or other user's videos. When you open the app, you land on the *#ForYou* screen and a video that TikTok recommends you starts playing. The video will play on repeat until you scroll down to jump to the next video. If you double tap the screen you like the video. Over time TikTok will learn what interests you based on videos you liked previously, watched until the end or repeatedly or skipped. From time to time the app will throw in a video that is not in your interests either to challenge what they know about your interests or to get a sense of what is interesting to a broader user range[^tiktok_for_you]. So TikTok is continuously running the virtuous cycle of AI. The App is useful, because you can endlessly watch videos that entertain you and therefore it attracts more users. These users interact with videos and TikTok can learn which videos fit into which interest group and improve their recommendation engine. This improves the product as users get to see even more entertaining videos and the loop continues.
 
-![Netflix Mainpage](/resources/netflix.png)
+![Netflix Mainpage](/assets/images/netflix.png)
 
 When a user opens the Netflix main page and does not find anything intriguing in 90 seconds, she will loose interest and move on to do something else[^netflix_ab_testing]. If so Netflix has failed to deliver: A user wanted to watch something, but could not find anything and left. That is why Netflix personalizes the complete homepage to the user. On the page are rows of grouped videos, for example recommendations based on previously watched movies or genres. Inside the groups the videos are ranked by how interesting a video might be to the specific user[^netflix_homepage]. Netflix even adapts the cover image of each video to the user[^netflix_artwork]. As an image says more than a thousands words the cover image is the most important evidence for a user to decide if a movie or show might be interesting to her. Therefore the image should show which of the user interests the movie could satisfy: Is there an actor that the user likes, is there an action loaded chasing scene in it, a romantic relationship or is it about a mysterious sighting? To select a good image, Netflix sources multiple cover artworks that show different aspects of the movie. A system then learns which of these artworks is a good choice for each user by showing the different artworks to the user base and observing which image/movie/user combination led the users to select the movie and watch it. Before Netflix personalized the artworks, they simply showed the same artwork to every user. To make sure, that the new system leads to a better user experience, Netflix ran A/B test. In an A/B test the users a split up into groups. One is the control group which gets to see what the current system produces, the static artworks. Then there are also one or more experimental groups, where the users get to see the new system, the personalized artworks. Then different metrics are tracked for each group to see if the new system improves the user experience. The metrics could be the streaming hours or user retention. Netflix found that personalized artworks are a meaningful improvement and rolled it out to the whole user base.
 
@@ -59,7 +64,7 @@ They created a landing page which described the the product in a few lines of te
 
 To get back to a example where AI is actually the key component, let us look at AMP Robotics who started with a unique **dataset**. They build robots that can sort trash to revolutionize recycling. Therefore a computer vision system must be able to detect which kind of trash is on a conveyor belt so  the robot arm can pick it up and throw it in the right bin. 
 
-<iframe width="100%" height="405" src="https://player.vimeo.com/video/342840855?h=0a01854c2f" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+{% include video id="342840855" provider="vimeo" %}
 
 When they started they setup a small demo conveyor belt at their lab. The CEO went dumpster diving on the weekends to find an assortment of bottles and cans for their dataset[^amp_robotics_spotify]. Once the janitor even thought they threw a big party and was about to throw away all the trash that they collected, luckily he called in first. With the small dataset and the lab setup they were able to built a compelling demo and got to talk to recycling site operators. But they knew that the demo only really worked in their lab setup and would struggle under different lighting conditions and trash types. On site, they were allowed to record more video of the actual conveyor belts that transport trash which they annotated to improve their system. Once they felt ready to put a trash sorting robot arm on site they purposefully set it up somewhere, where it could not create a lot of harm, as they knew they need to collect and label more data before their robot could detect the different types of trash accurate enough to be valuable. Their robots are connected to their cloud infrastructure and send back images. These get annotated, added to the dataset and new computer vision models are trained, that the robots can then download and use. This is how AMP Robotics runs the virtuous cycle of AI and continuously improves the system over time.
 

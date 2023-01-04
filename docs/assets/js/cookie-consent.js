@@ -1,7 +1,4 @@
-<!-- Cookie consent script -->
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-  window.cookieconsent.initialise({
+window.cookieconsent.initialise({
     "palette": {
       "popup": {
         "background": "#252e39"
@@ -15,7 +12,7 @@
     "static": true,
     "type": "opt-in",
     "content": {
-      "href": "{{ site.baseurl }}/privacy"
+      "href": "/privacy"
     },
     onInitialise: function (status) {
       var type = this.options.type;
@@ -53,5 +50,3 @@
       }
     }
   });
-</script>
-<!-- End of Cookie consent script -->
