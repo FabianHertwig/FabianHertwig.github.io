@@ -6,8 +6,14 @@ This is the repository for my blog. It is setup with jekyll and github pages.
 
 ## Local setup
 
-Install Ruby. For more information, see "[Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/)" in the Ruby documentation.
-Install Bundler. For more information, see "[Bundler](https://bundler.io/)".
+Install Ruby, best with [rbenv](https://github.com/rbenv/rbenv). Check the latest stable version here: https://jekyllrb.com/docs/installation/macos/ (currently 3.1.3)
+
+    rbenv install 3.1.3
+    rbenv local 3.1.3
+
+Install Bundler.    
+
+    gem install bundler
 
 Run
 
