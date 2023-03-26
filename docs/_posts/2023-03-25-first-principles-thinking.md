@@ -14,9 +14,9 @@ First principles thinking is the superpower that many attribute to Elon Musks su
 
 So what is first principles thinking and how can you become a first principles thinker?
 
-# What is first principles thinking
+# What is First Principles Thinking
 
-First principles comes from physics. There a first principle is a fundamental truth that can not be broken down any further. From this fundamental truth you can reason up and explain the processes that happen in physics. 
+First principles comes from philosophy and physics. There a first principle is a fundamental truth that can not be broken down any further. From this fundamental truth you can reason up and explain the processes that happen in physics. 
 
 Elon Musk about his way of thinking at TED [^way_of_thinking_ted]:
 >  Well, I do think there's a good framework for thinking. It is physics. You know, the sort of first principles reasoning. What I mean by that is, boil things down to their fundamental truths and reason up from there, as opposed to reasoning by analogy. Through most of our life, we get through life by reasoning by analogy, which essentially means copying what other people do with slight variations. And you have to do that. Otherwise, mentally, you wouldn't be able to get through the day. But when you want to do something new,
@@ -24,15 +24,20 @@ you have to apply the physics approach. Physics is really figuring out how to di
 
 ## First Principles Thinking in Philosophy: Aristotle's Approach
 
-First principles thinking has its roots in the philosophical teachings of Aristotle, who used this approach to uncover fundamental truths and build a coherent understanding of the world. By breaking down complex issues into their essential components, Aristotle demonstrated the power of first principles thinking in unlocking counterintuitive insights and promoting deeper comprehension of complex phenomena. 
+First principles thinking has its roots in the philosophical teachings of Aristotle, who used this approach to uncover fundamental truths and build a coherent understanding of the world. By breaking down complex issues into their essential components, Aristotle demonstrated the power of first principles thinking in unlocking counterintuitive insights and promoting deeper comprehension of complex phenomena. He called these fundamental truths "archai," which translates to "beginnings" or "principles." In his philosophical inquiries, Aristotle sought to understand the essence of things by identifying their fundamental building blocks and deriving knowledge from these basic truths.
 
-Aristotle, a renowned ancient Greek philosopher, was an early proponent of first principles thinking. He called these fundamental truths "archai," which translates to "beginnings" or "principles." In his philosophical inquiries, Aristotle sought to understand the essence of things by identifying their fundamental building blocks and deriving knowledge from these basic truths.
-
-To Aristotle, first principles were self-evident and indubitable truths that could not be derived from any other principles. He believed that by starting with these first principles, one could logically deduce other truths and build a solid foundation for understanding the world.
-
-Aristotle's process of reaching these first principles involved a technique called "dialectic," which was an exploration of different opinions and viewpoints through dialogue and questioning. By engaging in dialectic, Aristotle aimed to peel away the layers of complexity and ambiguity, ultimately revealing the foundational principles that underlie various phenomena.
+To Aristotle, first principles were self-evident and indubitable truths that could not be derived from any other principles. He believed that by starting with these first principles, one could logically deduce other truths and build a solid foundation for understanding the world. Aristotle's process of reaching these first principles involved a technique called "dialectic," which was an exploration of different opinions and viewpoints through dialogue and questioning. By engaging in dialectic, Aristotle aimed to peel away the layers of complexity and ambiguity, ultimately revealing the foundational principles that underlie various phenomena.
 
 One famous example of Aristotle's application of first principles thinking is his concept of the "unmoved mover." He reasoned that if everything in the universe is in motion, there must be a cause for this motion, and that cause must be something that is itself unmoving. By identifying the unmoved mover as a first principle, Aristotle developed a comprehensive metaphysical framework that accounted for the motion and change observed in the world.
+
+
+## Descartes' Radical Doubt: "I think, therefore I am"
+
+René Descartes, the 17th-century French philosopher, began his philosophical journey by doubting everything he knew or believed to be true. He questioned the reliability of his senses, the existence of the external world, and even the validity of his own thoughts. Through this process of relentless questioning and doubt, Descartes aimed to identify the most fundamental and self-evident truths, from which he could construct a solid and unshakable foundation for his philosophical system.
+
+In his quest for certainty, Descartes arrived at the realization that the very act of doubting and thinking proved his own existence. He reasoned that even if he doubted everything else, he could not doubt the fact that he was doubting and thinking. This simple yet profound insight led to his famous declaration, "I think, therefore I am."
+
+This statement encapsulates Descartes' first principles approach to knowledge and understanding. By questioning everything and breaking down his beliefs to their most basic components, he identified a fundamental and self-evident truth: his own existence as a thinking being. From this indubitable starting point, Descartes went on to build a comprehensive philosophical system that encompassed the nature of reality, the existence of God, and the relationship between the mind and the body.
 
 
 ## The Power of First Principles in Physics
