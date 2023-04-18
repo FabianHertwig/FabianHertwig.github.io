@@ -8,7 +8,7 @@ tags:
   - Mental Models
 ---
 
-First principles thinking is the superpower that many attribute to Elon Musks success. With Tesla he revolutionized the automotive industry. First doubted by many that he will be able to create an electric car company at all, now many other car manufacturers followed his lead in committing to only building electric cars. With SpaceX Elon Musk reduced the cost of bringing payloads to orbit by 10 fold by making boosters land back on land and reusable for future flights. With that as well experts doubted that it will be possible to land a rocket at all. But Elon Musk first principles thinking is that if it does not violate the rules of physics, then it must be possible. And after many attempts, he proved that it actually is.
+First principles thinking is the superpower that many attribute to Elon Musks success. With Tesla he revolutionized the automotive industry. First doubted by many that he will be able to create an electric car company at all, now many other car manufacturers followed his lead in committing to only building electric cars. With SpaceX Elon Musk reduced the cost of bringing payloads to orbit by 10 fold by making boosters land back on land and reusable for future flights. With that as well experts doubted that it will be possible to land a rocket at all. But Elon Musk's first principles thinking dictated that if it didn't violate the laws of physics, it must be possible. After multiple attempts, he successfully demonstrated the viability of this innovative approach.
 
 {% include video id="bvim4rsNHkQ" provider="youtube" %}
 
@@ -16,15 +16,16 @@ So what is first principles thinking and how can you become a first principles t
 
 # What is First Principles Thinking
 
-First principles comes from philosophy and physics. There a first principle is a fundamental truth that can not be broken down any further. From this fundamental truth you can reason up and explain the processes that happen in physics. 
+First principles comes from philosophy and physics. There a first principle is a fundamental truth that can not be broken down any further. From this fundamental truth you can reason up and explain the processes. 
 
 Elon Musk about his way of thinking at TED [^way_of_thinking_ted]:
 >  Well, I do think there's a good framework for thinking. It is physics. You know, the sort of first principles reasoning. What I mean by that is, boil things down to their fundamental truths and reason up from there, as opposed to reasoning by analogy. Through most of our life, we get through life by reasoning by analogy, which essentially means copying what other people do with slight variations. And you have to do that. Otherwise, mentally, you wouldn't be able to get through the day. But when you want to do something new,
 you have to apply the physics approach. Physics is really figuring out how to discover new things that are counterintuitive, like quantum mechanics. 
 
 ## First Principles Thinking in Philosophy: Aristotle's Approach
+![picture of Aristoteles with an abstract concept of the unmoved mover in the background](/assets/images/first_principles/aristoteles.png)
 
-First principles thinking has its roots in the philosophical teachings of Aristotle, who used this approach to uncover fundamental truths and build a coherent understanding of the world. By breaking down complex issues into their essential components, Aristotle demonstrated the power of first principles thinking in unlocking counterintuitive insights and promoting deeper comprehension of complex phenomena. He called these fundamental truths "archai," which translates to "beginnings" or "principles." In his philosophical inquiries, Aristotle sought to understand the essence of things by identifying their fundamental building blocks and deriving knowledge from these basic truths.
+First principles thinking has its roots in the philosophical teachings of Aristotle, who used this approach to uncover fundamental truths and build a coherent understanding of the world. He called these fundamental truths "archai," which translates to "beginnings" or "principles." In his philosophical inquiries, Aristotle sought to understand the essence of things by identifying their fundamental building blocks and deriving knowledge from these basic truths.
 
 To Aristotle, first principles were self-evident and indubitable truths that could not be derived from any other principles. He believed that by starting with these first principles, one could logically deduce other truths and build a solid foundation for understanding the world. Aristotle's process of reaching these first principles involved a technique called "dialectic," which was an exploration of different opinions and viewpoints through dialogue and questioning. By engaging in dialectic, Aristotle aimed to peel away the layers of complexity and ambiguity, ultimately revealing the foundational principles that underlie various phenomena.
 
@@ -37,8 +38,9 @@ René Descartes, the 17th-century French philosopher, began his philosophical jo
 
 In his quest for certainty, Descartes arrived at the realization that the very act of doubting and thinking proved his own existence. He reasoned that even if he doubted everything else, he could not doubt the fact that he was doubting and thinking. This simple yet profound insight led to his famous declaration, "I think, therefore I am."
 
-This statement encapsulates Descartes' first principles approach to knowledge and understanding. By questioning everything and breaking down his beliefs to their most basic components, he identified a fundamental and self-evident truth: his own existence as a thinking being. From this indubitable starting point, Descartes went on to build a comprehensive philosophical system that encompassed the nature of reality, the existence of God, and the relationship between the mind and the body.
+This statement encapsulates Descartes' first principles approach to knowledge and understanding. By questioning everything he identified a fundamental and self-evident truth: his own existence as a thinking being. From this indubitable starting point, Descartes went on to build a comprehensive philosophical system that encompassed the nature of reality, the existence of God, and the relationship between the mind and the body.
 
+![picture of Descartes looking doubting at the viewer](/assets/images/first_principles/descartes.png)
 
 ## The Power of First Principles in Physics
 
@@ -49,6 +51,8 @@ One day, as Newton sat beneath an apple tree in the university's garden, he witn
 Through diligent research and experimentation, Newton formulated his groundbreaking laws of motion, which described the relationship between the forces acting on an object and its motion. Armed with these principles, Newton sought to apply them to the celestial realm and understand the motion of the planets and other celestial bodies.
 
 Focusing on the Moon, Newton wondered if the same force that caused the apple to fall from the tree could also be responsible for the Moon's orbit around the Earth. To investigate this hypothesis, he considered the gravitational force acting on the Moon and the force required to keep it in orbit.
+
+![picture of an apple falling from a tree, the moon directly behind it](/assets/images/first_principles/apple.png)
 
 Through a series of calculations, Newton found that the force needed to maintain the Moon's orbit was indeed proportional to the gravitational force acting upon it, suggesting that a single force - gravity - was responsible for both the motion of the apple falling to the ground and the Moon's orbit around the Earth. This revelation was a groundbreaking discovery that unified the understanding of forces acting on both terrestrial and celestial objects.
 
@@ -116,9 +120,7 @@ Elon about how he is able to attract talent:
 
 # Conclusion
 
-In conclusion, first principles thinking is a powerful and transformative approach to problem-solving that has been employed by some of the most brilliant minds in history, including Aristotle, Isaac Newton, and Elon Musk. This way of thinking transcends disciplines and can be applied to various aspects of life, from philosophy and physics to business and everyday challenges.
-
-By breaking down complex problems into their fundamental components, challenging assumptions, and working from the ground up, first principles thinking enables us to develop innovative and effective solutions that may defy conventional wisdom. By cultivating this mindset and applying it in our own lives, we can unlock our own potential for creative problem-solving and embark on a journey of continuous growth and learning.
+In conclusion, first principles thinking is a powerful and transformative approach to problem-solving that has been employed by some of the most brilliant minds in history, including Aristotle, Isaac Newton, and Elon Musk. This way of thinking transcends disciplines and can be applied to various aspects of life, from philosophy and physics to business and everyday challenges. By cultivating this mindset and applying it in our own lives, we can unlock our own potential for creative problem-solving and embark on a journey of continuous growth and learning.
 
 ## References
 [^way_of_thinking_ted]: Elon explains first principles thinking at TED: https://youtu.be/IgKWPdJWuBQ?t=1096 
