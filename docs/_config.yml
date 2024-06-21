@@ -16,7 +16,7 @@
 title: Fabian Hertwig's Blog
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a Machine Learning Engineer and write about Machine Learning related topics.
+  I am an AI Engineer and write about AI and management related topics.
 twitter_username: FabianHertwig
 github_username: FabianHertwig
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -58,8 +58,11 @@ plugins:
 author:
   name: "Fabian Hertwig"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am a Machine Learning Engineer working at MaibornWolff GmbH in Munich."
+  bio: "I am a Co-Founder of [Zen AI](https://getzenai.com) and an AI Engineer working at MaibornWolff GmbH in Munich."
   links:
+    - label: "Zen AI"
+      icon: "fas fa-fw fa-link"
+      url: "https://getzenai.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/FabianHertwig"
