@@ -48,3 +48,9 @@ I registered the domains fabianhertwig.com and fabianhertwig.de with google doma
 For fabianhertwig.com I setup the DNS entries according to this guide, so first the apex domain and then as well the CNAME for the www subdomain: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain
 
 For fabianhertwig.de I have setup a forward to the fabianhertwig.com domain.
+
+# Hints for posts
+
+## How to inlcude a youtube video
+
+    {% include video id="L-s_3b5fRd8?start=1385" provider="youtube" %}
