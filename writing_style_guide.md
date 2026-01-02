@@ -1,10 +1,10 @@
-# Writing Style Guide (Derived from Awesome Data Products Post)
+# Writing Style Guide
 
 **Overarching Goal: Excellent Reader Experience**
 
-This document outlines the key characteristics of the desired writing style, based on the analysis of the blog post `docs/_posts/2022-01-04-awesome-data-products.md`.
+This document outlines the key characteristics of the desired writing style, drawing inspiration from science communicators like **Tim Urban (Wait But Why)**, **Bill Bryson (A Short History of Nearly Everything)**, and **Robert Sapolsky**.
 
-The primary goal is to provide readers with an informative, engaging, and easily digestible experience. The style should balance accessibility with technical depth, catering to both quick skimming and deeper dives.
+The primary goal is to provide readers with an informative, engaging, and easily digestible experience. The style should balance accessibility with scientific depth, making complex topics feel fascinating rather than intimidating.
 
 ## 1. Introduction
 
@@ -16,30 +16,44 @@ The primary goal is to provide readers with an informative, engaging, and easily
     *   *Example:* "In this post I will explain the concept and show how these companies implement it."
 *   **Avoid:** Lengthy personal anecdotes or overly narrative openings that delay getting to the point.
 
-## 2. Tone and Voice: Professional Engagement
+## 2. Tone and Voice: Conversational Science Communication
 
-*   **Professional yet Engaging:** Maintain a knowledgeable and informative tone. Enthusiasm is good, but avoid overly casual language, slang, or excessive personalization.
-*   **Engage through Content:**
-    *   Use relevant **storytelling** sparingly to illustrate points or provide context.
-    *   Leverage **real-world examples** that readers can relate to.
-    *   Pique **reader curiosity** by highlighting interesting problems, solutions, or implications.
-*   **Direct Address (Sparingly):** Use "you," "we," and "let's" strategically to involve the reader without being overly conversational.
-    *   *Example:* "If **you** like, watch it...", "let **us** look at some companies..."
-*   **Limited First Person:** Use "I" minimally.
-*   **Evidence-Based:** Ground claims in examples, evidence, and clear explanations.
+*   **Conversational yet Knowledgeable:** Write like you're explaining something fascinating to a smart friend over coffee. Enthusiasm is encouraged—if the topic is genuinely interesting, let that show.
+*   **Storytelling as a Core Tool:**
+    *   **Tell the story of discovery:** Who figured this out? How? What surprised them? (Bryson-style)
+    *   **Use vivid scenarios:** "Imagine you're a monkey reaching for a treat..." makes neuroscience tangible
+    *   **Historical context:** Science is a human endeavor—include the humans
+*   **Humor and Relatability:**
+    *   Self-deprecating observations are welcome ("We've all done this...")
+    *   Absurdist comparisons can illuminate complex ideas (Wait But Why style)
+    *   Don't force jokes, but don't suppress genuine wit either
+*   **Direct Address:** Use "you" freely to involve the reader. The reader should feel like a participant, not an observer.
+    *   *Example:* "Your brain just did something it's been doing for 500 million years."
+*   **First Person is Fine:** Use "I" when sharing genuine observations or guiding the reader through your thought process.
+*   **Evidence-Based Wonder:** Ground claims in research, but frame discoveries as *interesting* rather than just *true*. The reader should think "wow, that's fascinating" not just "okay, noted."
 
-## 3. Explanation Depth, Structure, and Conciseness
+## 3. Explanation Depth and Structure
 
-*   **Clarity First:** Explain concepts and terms in simple language initially, ensuring broad understanding.
-*   **Layered Explanations:** Structure explanations to go from simple to in-depth. Start with the core idea, then elaborate with details, examples, and nuances.
-    *   Use concrete, **relatable examples** (well-known companies, everyday situations) to make abstract concepts tangible.
-    *   Provide specific details (technical terms, process steps) for those seeking deeper understanding.
-*   **Provide Resources:** Offer ways for interested readers to learn more (links to documentation, papers, relevant media like videos or code snippets).
-*   **Logical Structure & Skimmability:**
-    *   Use clear headings, subheadings, bullet points, and numbered lists effectively to organize information.
-    *   Ensure a logical flow that allows readers to easily follow the argument or explanation.
-*   **Avoid Redundancy:** Do not repeat information unless it provides a genuinely new perspective, clarifies a complex point from a different angle, or serves as a necessary summary.
-*   **Compress for Clarity:** Write concisely. Eliminate unnecessary words and phrases. Ensure the text is as compressed as possible *without sacrificing understandability*.
+*   **Build Understanding in Layers:**
+    *   Start with the intuitive version—what does this *feel* like?
+    *   Then add the mechanism—how does it actually work?
+    *   Then add the nuance—what's the scientific consensus and where are the edges?
+    *   (Sapolsky's approach: fundamentals → complexity → real-world implications)
+*   **Analogies Are Your Friend:**
+    *   Complex systems need good mental models
+    *   *Example:* "Your dopamine system is like a stock trader who only cares about surprises..."
+    *   Test analogies for accuracy—a bad analogy teaches the wrong thing
+*   **Embrace "We Don't Fully Know":**
+    *   Science has edges and uncertainties—acknowledge them
+    *   This builds trust and is more interesting than false certainty
+*   **Logical Flow with Breathing Room:**
+    *   Use clear headings and subheadings
+    *   White space is your friend—dense walls of text feel academic, not engaging
+    *   Section breaks let ideas land before moving on
+*   **Concise but Not Compressed:**
+    *   Eliminate genuinely unnecessary words
+    *   But keep the words that add rhythm, personality, or breathing room
+    *   A perfectly compressed sentence can feel robotic; a slightly looser one can feel human
 
 ## 4. Formatting and Emphasis for Readability
 
@@ -51,6 +65,21 @@ The primary goal is to provide readers with an informative, engaging, and easily
 *   **Visual Aids:** Incorporate images or diagrams where they significantly aid understanding.
 *   **References:** Use footnotes or a dedicated reference section.
 
+## 5. Science Communication Principles
+
+*   **Wonder First, Then Understanding:**
+    *   Lead with what's surprising, counterintuitive, or fascinating
+    *   The reader should *want* to understand the mechanism
+*   **Connect to Human Experience:**
+    *   Abstract science → "This is what happens when you can't stop scrolling"
+    *   The reader should recognize themselves in the science
+*   **Cross-Disciplinary Connections:**
+    *   Neuroscience + Evolution + Psychology + Technology = richer understanding
+    *   Show how different fields illuminate the same phenomenon
+*   **Implications Matter:**
+    *   Don't just explain what is—explore what it means
+    *   "So what?" should never be left unanswered
+
 ## Summary
 
-The style prioritizes the reader's experience through clarity, engagement, and efficient communication. It respects the reader by providing layered information suitable for both skimming and in-depth learning, using relatable examples and clear structure, all while maintaining a professional tone and concise language. 
+The style aims to make complex topics genuinely interesting. It draws from the best of science communication: Wait But Why's conversational depth and humor, Bryson's storytelling about scientists and discovery, and Sapolsky's layered approach from fundamentals to implications. The goal is for readers to finish feeling both smarter and entertained—and wanting to share what they learned. 
