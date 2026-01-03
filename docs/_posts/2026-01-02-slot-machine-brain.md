@@ -12,17 +12,19 @@ tags:
 draft: true
 ---
 
-You put your phone down, determined to focus on something else. Anything else. You have work to do, emails to send, a book you've been meaning to read. You set the phone face-down on the table, a small gesture of resolve.
+I'm on the couch, watching a show I'm genuinely enjoying. Good plot, good acting, no complaints. And then I notice my phone is in my hand. I'm looking at it. I don't remember picking it up.
 
-Two minutes later, it's back in your hand. Thumb scrolling. You didn't consciously decide to pick it up. In fact, you specifically decided *not* to. And yet here you are, watching a video of a cat doing something moderately amusing, already forgetting why you picked up the phone in the first place.
+Here's the strange part: I don't actually want to check anything. No message I'm waiting for, no notification that pulled me in. I just... opened it. Automatically. Like a reflex. I catch myself staring at the home screen, thumb hovering, with no idea what I intended to do.
 
-If this sounds familiar, I have good news and bad news.
+It's even weirder when you see it from outside. I'll be talking with someone, mid-sentence, and they pull out their phone and start scrolling. They don't seem to notice they've done it. I don't think they're being rude on purpose. It's more like their hand just... moved.
+
+I got curious about why this happens. I dug into the research, and I have good news and bad news.
 
 The bad news: you're not going to willpower your way out of this. The systems driving that behavior are ancient, powerful, and mostly invisible to conscious thought.
 
 The good news: once you understand *why* your brain does this, you can stop blaming yourself and start designing around it. This isn't a character flaw. It's evolutionary biology colliding with teams of engineers who've figured out exactly how to exploit it.
 
-And once you understand how these mechanisms work, you can ask a harder question: if they're this powerful, could they be redirected toward things that actually benefit you? The answer turns out to be more complicated than Duolingo's green owl would suggest.
+But I also wonder: if these systems are this powerful, could they be used for good? Could I get addicted to deep work, or learning, or working out, the way I'm addicted to my phone?
 
 ---
 
