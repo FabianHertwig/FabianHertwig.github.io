@@ -1,6 +1,7 @@
 ---
 title: "Code Surgery: How AI Assistants Make Precise Edits to Your Files"
 date: 2025-04-26 8:00:00 +0200
+description: "How Codex, Aider, RooCode, and Cursor apply AI-generated changes to files—comparing patch formats, fuzzy matching, and Cursor's specialized apply model."
 categories:
   - blog
 tags:

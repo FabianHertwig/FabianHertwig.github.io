@@ -1,6 +1,7 @@
 ---
 title: "Python Virtual Environments: The best workflow"
 date: 2023-01-07 12:00:00 +0200
+description: "Why uv is now the best tool for Python environments, plus the pyenv + venv workflow that keeps each project isolated with its own Python version."
 categories:
   - blog
 tags:
