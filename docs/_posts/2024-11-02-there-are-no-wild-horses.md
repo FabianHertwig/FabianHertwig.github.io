@@ -1,6 +1,7 @@
 ---
 title: "GPT Rabbit Hole: The Wild Horses That Weren't: The Surprising Tale of America's Free-Roaming Horses"
 date: 2024-11-02 12:00:00 +0200
+description: "America's 'wild' horses are actually feral descendants of Spanish imports. A ChatGPT-assisted deep dive into 55 million years of horse evolution and extinction."
 categories:
   - blog
 tags:

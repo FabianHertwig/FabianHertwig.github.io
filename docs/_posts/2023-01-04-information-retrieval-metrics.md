@@ -1,6 +1,7 @@
 ---
 title: "Metrics for Information Retrieval"
 date: 2023-01-04 15:00:00 +0200
+description: "A practical guide to NDCG, MAP, Precision, Recall, and MRR—the metrics used to evaluate search systems and neural retrieval models, with worked examples."
 categories:
   - blog
 tags:

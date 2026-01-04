@@ -1,6 +1,7 @@
 ---
 title: "Unlocking the Power of First Principles Thinking: A Timeless Approach to Innovation and Problem-Solving"
 date: 2023-03-25 22:00:00 +0200
+description: "From Aristotle to Elon Musk: how breaking problems down to fundamental truths and reasoning up from there leads to breakthrough innovations."
 categories:
   - blog
 tags:

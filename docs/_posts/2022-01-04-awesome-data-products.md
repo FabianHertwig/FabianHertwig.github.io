@@ -1,6 +1,7 @@
 ---
 title: "Feedback Loops are the Key Concept to build awesome Data Products"
 date: 2022-01-04 15:00:00 +0200
+description: "How Tesla, Netflix, TikTok, and even a local butcher use the virtuous circle of AI—where users generate data that improves the product, creating an unstoppable competitive advantage."
 categories:
   - blog
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Streamlining Corporate Decision-Making, Insights from Jeff Bezos"
 date: 2024-01-07 18:00:00 +0200
+description: "Jeff Bezos on two-way doors, why senior leaders should speak last, the danger of proxies, and how 6-page memos beat PowerPoint for truth-seeking."
 categories:
   - blog
 tags:
