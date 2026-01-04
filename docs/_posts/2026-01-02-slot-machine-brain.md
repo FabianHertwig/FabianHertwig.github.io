@@ -9,7 +9,6 @@ tags:
   - Technology
   - Addiction
   - Social Media
-draft: true
 ---
 
 I'm on the couch, watching a show I'm genuinely enjoying. Good plot, good acting, no complaints. And then I notice my phone is in my hand. I'm looking at it. I don't remember picking it up.
