@@ -58,7 +58,7 @@ plugins:
 author:
   name: "Fabian Hertwig"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am a Co-Founder of [Zen AI](https://getzenai.com) and an AI Engineer working at MaibornWolff GmbH in Munich."
+  bio: "AI engineer and co-founder of [Zen AI](https://getzenai.com). Fascinated by the intersection of AI, entrepreneurship, and cognitive science."
   links:
     - label: "Zen AI"
       icon: "fas fa-fw fa-link"
