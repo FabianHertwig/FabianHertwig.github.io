@@ -1,5 +1,5 @@
 ---
-title: "Your Brain on Slot Machines: How Apps Exploit Ancient Survival Circuits"
+title: "Your Phone is a Fake Berry Bush: Why You Keep Scrolling"
 date: 2026-01-02 18:00:00 +0200
 description: "The neuroscience behind phone addiction: how Skinner's pigeons, dopamine prediction errors, and the wanting-vs-liking distinction explain why you can't stop scrolling."
 categories:
