@@ -1,0 +1,99 @@
+<div style="background: white; border-radius: 8px; padding: 24px; margin: 32px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0; font-size: 20px; font-weight: 600; color: #1a1a1a;">Ruby Laser: The Optical Cavity</h3>
+    <canvas id="rubyLaser" width="800" height="400" style="display: block; width: 100%; border-radius: 4px; background: #ffffff;"></canvas>
+    <p style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.5;">
+        Watch how photons bounce between mirrors. Most spontaneous emissions escape randomly (gray), but the few traveling along the axis (red) bounce back and forth, triggering more emissions. Notice the exponential growth.
+    </p>
+</div>
+<script>
+(function() {
+    const canvas = document.getElementById('rubyLaser');
+    const ctx = canvas.getContext('2d');
+
+    class Photon {
+        constructor(x, y, vx, vy, isLasing) {
+            this.x = x; this.y = y; this.vx = vx; this.vy = vy;
+            this.isLasing = isLasing; this.alpha = 1;
+        }
+        update() {
+            this.x += this.vx; this.y += this.vy;
+            if (!this.isLasing && (this.x < 50 || this.x > 750 || this.y < 50 || this.y > 350)) {
+                this.alpha -= 0.02;
+            }
+        }
+        draw(ctx) {
+            if (this.alpha <= 0) return;
+            ctx.save();
+            ctx.globalAlpha = this.alpha;
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, 3, 0, Math.PI * 2);
+            ctx.fillStyle = this.isLasing ? '#ff3b30' : '#8e8e93';
+            ctx.fill();
+            ctx.restore();
+        }
+    }
+
+    let photons = [];
+
+    function drawSetup() {
+        ctx.clearRect(0, 0, 800, 400);
+        ctx.fillStyle = '#ffe5e5';
+        ctx.fillRect(200, 150, 400, 100);
+        ctx.strokeStyle = '#ff3b30';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(200, 150, 400, 100);
+        ctx.fillStyle = '#d1d1d6';
+        ctx.fillRect(195, 140, 5, 120);
+        ctx.fillRect(600, 140, 5, 120);
+        ctx.strokeStyle = '#ffd700';
+        ctx.lineWidth = 2;
+        ctx.setLineDash([5, 5]);
+        ctx.beginPath();
+        ctx.arc(400, 200, 130, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.fillStyle = '#1a1a1a';
+        ctx.font = '12px sans-serif';
+        ctx.fillText('Mirror (100%)', 140, 205);
+        ctx.fillText('Mirror (95%)', 610, 205);
+        ctx.fillText('Ruby Rod', 350, 135);
+    }
+
+    function animate() {
+        drawSetup();
+
+        if (Math.random() < 0.15) {
+            const x = 200 + Math.random() * 400;
+            const y = 150 + Math.random() * 100;
+            const angle = Math.random() * Math.PI * 2;
+            const speed = 2;
+            if (Math.random() < 0.95) {
+                photons.push(new Photon(x, y, Math.cos(angle) * speed, Math.sin(angle) * speed, false));
+            } else {
+                photons.push(new Photon(x, 200, speed, 0, true));
+            }
+        }
+
+        photons = photons.filter(p => {
+            p.update();
+            if (p.isLasing && p.y > 150 && p.y < 250) {
+                if (p.x <= 200 && p.vx < 0) {
+                    p.vx = -p.vx;
+                    if (Math.random() < 0.3) photons.push(new Photon(p.x + 10, 200, 2, 0, true));
+                }
+                if (p.x >= 600 && p.vx > 0) {
+                    if (Math.random() < 0.95) p.vx = -p.vx;
+                    else p.isLasing = false;
+                    if (Math.random() < 0.3) photons.push(new Photon(p.x - 10, 200, -2, 0, true));
+                }
+            }
+            p.draw(ctx);
+            return p.alpha > 0 && p.x > -50 && p.x < 850;
+        });
+
+        requestAnimationFrame(animate);
+    }
+
+    animate();
+})();
+</script>

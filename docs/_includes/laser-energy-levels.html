@@ -1,0 +1,116 @@
+<div style="background: white; border-radius: 8px; padding: 24px; margin: 32px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0; font-size: 20px; font-weight: 600; color: #1a1a1a;">Energy Levels: Metastable States</h3>
+    <canvas id="energyLevels" width="800" height="400" style="display: block; width: 100%; border-radius: 4px; background: #ffffff;"></canvas>
+    <p style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.5;">
+        Electrons (blue dots) absorb pump light and jump to high energy states, quickly drop to the metastable state (middle line), then eventually lase back to ground state (bottom). The metastable state is where electrons accumulate.
+    </p>
+</div>
+<script>
+(function() {
+    const canvas = document.getElementById('energyLevels');
+    const ctx = canvas.getContext('2d');
+
+    class Electron {
+        constructor() {
+            this.x = 200 + Math.random() * 400;
+            this.targetLevel = 0;
+            this.currentLevel = 0;
+            this.y = this.getLevelY(0);
+            this.waitTime = Math.random() * 100;
+        }
+        getLevelY(level) {
+            if (level === 0) return 320;
+            if (level === 1) return 220;
+            if (level === 2) return 120;
+            return 320;
+        }
+        update() {
+            this.waitTime--;
+            const targetY = this.getLevelY(this.targetLevel);
+            if (Math.abs(this.y - targetY) > 1) {
+                this.y += (targetY - this.y) * 0.1;
+            } else {
+                this.y = targetY;
+                this.currentLevel = this.targetLevel;
+            }
+            if (this.waitTime <= 0) {
+                if (this.currentLevel === 0) {
+                    if (Math.random() < 0.02) { this.targetLevel = 2; this.waitTime = 5; }
+                } else if (this.currentLevel === 2) {
+                    this.targetLevel = 1; this.waitTime = 100 + Math.random() * 100;
+                } else if (this.currentLevel === 1) {
+                    this.targetLevel = 0; this.waitTime = 50 + Math.random() * 50;
+                }
+            }
+        }
+        draw(ctx) {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, 4, 0, Math.PI * 2);
+            ctx.fillStyle = '#007aff';
+            ctx.fill();
+        }
+    }
+
+    const electrons = Array.from({length: 30}, () => new Electron());
+
+    function drawLevels() {
+        ctx.clearRect(0, 0, 800, 400);
+
+        const levels = [
+            {y: 120, label: 'Pump Band (High Energy)', color: '#5856d6'},
+            {y: 220, label: 'Metastable State', color: '#ff9500'},
+            {y: 320, label: 'Ground State', color: '#34c759'}
+        ];
+
+        levels.forEach(level => {
+            ctx.strokeStyle = level.color;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(150, level.y);
+            ctx.lineTo(650, level.y);
+            ctx.stroke();
+            ctx.fillStyle = '#1a1a1a';
+            ctx.font = '13px sans-serif';
+            ctx.fillText(level.label, 660, level.y + 5);
+        });
+
+        ctx.strokeStyle = '#8e8e93';
+        ctx.lineWidth = 1;
+        ctx.setLineDash([3, 3]);
+
+        ctx.beginPath();
+        ctx.moveTo(100, 320);
+        ctx.lineTo(100, 120);
+        ctx.stroke();
+        ctx.fillStyle = '#8e8e93';
+        ctx.font = '11px sans-serif';
+        ctx.fillText('Pump', 70, 220);
+
+        ctx.beginPath();
+        ctx.moveTo(120, 120);
+        ctx.lineTo(120, 220);
+        ctx.stroke();
+        ctx.fillText('Fast', 90, 170);
+
+        ctx.strokeStyle = '#ff3b30';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(700, 220);
+        ctx.lineTo(700, 320);
+        ctx.stroke();
+        ctx.fillStyle = '#ff3b30';
+        ctx.fillText('Laser', 710, 270);
+
+        ctx.setLineDash([]);
+
+        electrons.forEach(e => { e.update(); e.draw(ctx); });
+    }
+
+    function animate() {
+        drawLevels();
+        requestAnimationFrame(animate);
+    }
+
+    animate();
+})();
+</script>
